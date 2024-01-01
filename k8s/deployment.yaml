@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: omkemjhg
+  name: omkekfgh
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: omkemjhg
+      app: omkekfgh
   template:
     metadata:
       labels:
-        app: omkemjhg
+        app: omkekfgh
     spec:
       containers:
-      - image: okteto.dev/omkemjhg:latest
-        name: omkemjhg
+      - image: okteto.dev/omkekfgh:latest
+        name: omkekfgh
         ports:
         - containerPort: 8080
         env:
